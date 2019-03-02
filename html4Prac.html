@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="refresh" content="15" />
+<title>HTML4</title>
+<style>
+body {
+  font-family: Verdana,sans-serif;
+  font-size: 0.9em;
+}
+
+div#header, div#footer {
+  padding: 10px;
+  color: white;
+  background-color: #0F8306;
+}
+
+div#content {
+  margin: 5px;
+  padding: 10px;
+  background-color: #8BF782;
+}
+
+div.article {
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+div#menu ul {
+  padding: 0;
+}
+
+div#menu ul li {
+  display: inline;
+  margin: 5px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>Manual de usuario (Ximena Wendy Calizaya Perez)</h1>
+</div>
+
+<div id="content">
+  <h2>Nuevas herramientas en el HTML5 </h2>
+  <div class="article">
+    <h2>Sonido</h2>
+    <p>En HTML5, ahora se puede ponerle sonido, como por ejemplo: </p>
+    <audio controls autoplay>
+      <source src="ch.ogg" type="audio/ogg">
+      <source src="ch.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </div>
+  <div class="article">
+    <h2>Videos</h2>
+    <p>En HTML5, ahora se puede ponerle videos, como por ejemplo</p>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="article">
+    <h2>Imagenes</h2>
+    <p>En HTML5, ahora se puede ponerle imagenes, como por ejemplo</p>
+    <figure>
+       <img src="imagen.jpg" alt="Trulli width="304" height="528">
+       <figcaption>Fig1. - Basos personalizados, Cochabamba, Bolivia.</figcaption>
+    </figure>
+  </div>
+  <div class="article">
+    <h2>Sumario</h2>
+    <p>En HTML5, ahora se puede ponerle sumarios, como por ejemplo</p>
+    <details>
+      <summary>ejemplo 1</summary>
+        <p> Sirve como ejemplo para el punto uno del sumario</p>
+        <p>hhhhhhhhhhhhhhhhhhhooooooooooollllllllllllllllllaaaaaaaaaaaaaaaaa</p>
+    </details>
+    <details>
+      <summary>ejemplo 2</summary>
+        <p> Sirve como ejemplo para el punto dos del sumario</p>
+        <p>hhhhhhhhhhhhhhhhhhhooooooooooollllllllllllllllllaaaaaaaaaaaaaaaaa</p>
+    </details>
+  </div>
+  <div class="article">
+    <h2>Otros</h2>
+    <p>En HTML5, ahora se puede ponerle la fecha, como por ejemplo</p>
+    <input type="date">
+    <p>En HTML5, ahora se puede ponerle contraseña, como por ejemplo</p>
+    <input type="password">
+    <p>En HTML5, ahora se puede ponerle color, como por ejemplo</p>
+    <input type="color">
+    <p>En HTML5, ahora se puede ponerle time, como por ejemplo</p>
+    <input type="time">
+  </div>
+  <div class="article">
+      <h2>Lugares</h2>
+      <p>En HTML5, ahora se puede poner la posicion de diferentes formatos, como por ejemplo</p>
+       <figure>
+         <img src="posiciones.jpg" alt="Trulli width="304" height="528">
+       </figure>
+    </div>
+    <div class="article">
+      <h2>Notas importantes</h2>
+      <p>La pagina cuenta con meta tags para refrescar la pagina cada 15 segundos</p>
+    </div>
+    <div class="article">
+      <h2>Meta tags</h2>
+      <p>Author: Para hacer referencia al autor del documento. La estructura sería:</p>
+      <p>&lang;meta name="author" content="Manual Web" /&rang;</p>
+      <p>Description: Define la descripción del contenido del documento a forma de resumen. Su uso sería:</p>
+      <p>&lang;meta name="description" content="Manual Web que nos explica el uso del lenguaje HTML" /&rang;</p>
+      <p>Keywords: Conjunto de palabras que describen el documento. Las palabras van separadas por comas. Se escribiría de la siguiente forma:</p>
+      <p>&lang;meta name="keywords" content="manual,html,elementos,atributos,ejemplos" /&rang;</p>
+      <p>Revised: Información relativa a cuándo el documento fue revisado por última vez. Se utilizará de la siguiente forma:</p>
+      <p>&lang;meta name="revised" content="24/03/2016" /&rang;</p>
+      <p>Refresh: Especifica cada cuanto tiempo tiene que recargar la página el navegador web. El tiempo es en segundos.</p>
+      <p>&lang;meta http-equiv="refresh" content="5" /&rang;</p>
+      <p>Incluso podemos utilizar este tipo para hacer una redirección a otra página.</p>
+      <p>&lang;meta http-equiv="refresh" content="2; http://lineadecodigo.com" /&rang;</p>
+      <p>Content-type: Nos sirve para identificar el tipo de documento, que será un documento de tipo text/html y la codificación del contenido. Si es ISO 8859-1, UTF-8,… Esto servirá al navegador a interpretar los caracteres que vayan dentro del contenido.</p>
+      <p>&lang;meta http-equiv="content-type" content="text/html; charset=UTF-8" /&rang;</p>
+      <p>Cookie: Nos sirve para guardar una cookie. Los datos guardados son clave/valor</p>
+      <p>&lang;meta http-equiv="cookie" content="clave=valor; expires=Saturday, 25-Mar-16 23:59:59 GMT;" /&rang;</p>
+      <p>og:title: Define el título del documento.</p>
+      <p>&lang;meta name="og:title" content="Manual Web. Manuales en Español" /&rang;</p>
+      <p>og:type: Indica el tipo de objeto que representa la página. Si es un artículo, un vídeo, una imagen,…</p>
+      <p>&lang;meta name="og:type" content="article" /&rang;</p>
+      <p>og:image: Permite establecer la imagen más representativa del documento</p>
+      <p>&lang;meta name="og:image" content="http://www.manualweb.net/logo.png" /&rang;</p>
+      <p>og:url: Nos ayuda a definir la URL asociada al documento. Esto es por si queremos utilizar alguna diferente a la URL que ya tenga.</p>
+      <p>&lang;meta name="og:url" content="http://www.manualweb.net" /&rang;</p>
+    </div>
+</div>
+<div id="footer">
+  <p>&amp;copy; 2019 Primera pagina en HTML5 . All rights reserved.</p>
+</div>
+</body>
+</html>
